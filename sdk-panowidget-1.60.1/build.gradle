@@ -1,0 +1,5 @@
+configurations.create("default")
+artifacts.add("default", file('sdk-panowidget-1.60.1.aar'))
+dependencies {
+//    compile project(':app')
+}
