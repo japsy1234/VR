@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         first_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent explore = new Intent(MainActivity.this,Choices.class);
+                Intent explore = new Intent(MainActivity.this,PanoVr.class);
                 startActivity(explore);
             }
         });
