@@ -3,9 +3,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <com.google.vr.sdk.widgets.pano.VrPanoramaView
-        android:id="@+id/pano_view"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFD700"
+        android:text="Start Exploring"
+        android:id="@+id/explore"
+        android:layout_marginTop="57dp"
+        android:background="#c012051b"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>
