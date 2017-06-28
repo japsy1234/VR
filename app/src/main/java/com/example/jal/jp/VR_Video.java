@@ -113,7 +113,6 @@ public class VR_Video extends AppCompatActivity  {
                     } catch(IOException e) {
                         //Handle exception
                     }
-                    //your code here
 
 
                 }
