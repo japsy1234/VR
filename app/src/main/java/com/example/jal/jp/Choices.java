@@ -12,14 +12,24 @@ import android.widget.Button;
 public class Choices extends AppCompatActivity {
 
     public Button first_button;
+    public Button second_button;
 
     public void init(){
-        first_button = (Button)findViewById(R.id.view);
+        first_button = (Button)findViewById(R.id.video);
+        second_button = (Button)findViewById(R.id.view);
         first_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent view = new Intent(Choices.this,PanoVr.class);
+                Intent view = new Intent(Choices.this,VR_Video.class);
                 startActivity(view);
+            }
+        });
+       second_button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent view2 = new Intent(Choices.this,PanoVr.class);
+                startActivity(view2);
+
             }
         });
     }

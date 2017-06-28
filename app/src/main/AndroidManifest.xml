@@ -29,7 +29,11 @@
         <activity
             android:name=".Choices"
             android:label="@string/title_activity_choices"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".VR_Video"
+            android:label="@string/title_activity_vr__video"
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>

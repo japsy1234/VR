@@ -14,6 +14,7 @@
             <option value="$PROJECT_DIR$/sdk-common-1.60.1" />
             <option value="$PROJECT_DIR$/sdk-commonwidget-1.60.1" />
             <option value="$PROJECT_DIR$/sdk-panowidget-1.60.1" />
+            <option value="$PROJECT_DIR$/sdk-videowidget-1.60.1" />
           </set>
         </option>
       </GradleProjectSettings>

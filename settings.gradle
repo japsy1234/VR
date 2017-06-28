@@ -1,1 +1,1 @@
-include ':app', ':sdk-audio-1.60.1', ':sdk-common-1.60.1', ':sdk-commonwidget-1.60.1', ':sdk-panowidget-1.60.1'
+include ':app', ':sdk-audio-1.60.1', ':sdk-common-1.60.1', ':sdk-commonwidget-1.60.1', ':sdk-panowidget-1.60.1', ':sdk-videowidget-1.60.1'
